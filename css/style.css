@@ -1,0 +1,46 @@
+
+/*  root  */
+:root{
+    --background:#282a36;
+    --bg-menu:rgba(0, 0, 0, 0.9);
+    --color-red:#ce2e3c;
+    --color-white:#f8f8f2;
+    --color-orange:#ffb86c;
+}
+
+/*  reset  */
+*{margin: 0px; padding: 0px; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+body{background-color: var(--background);}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+
+:root{
+    --background: black;
+    --color-red:#b93439;
+    --color-white:#f8f8f2;
+    --color-orange:#ffb86c;
+}
+
+.navbar-brand{
+    width: 9%;
+    padding-left: 2%;
+    float: left;
+}
+
+.shopping-cart{
+    font-size: 0.5rem;
+    color: var(--color-red);
+    
+}
+
+#products{
+    margin: 0 auto;
+    display: flex;
+}
+
+.single-product{
+    width: 37%;
+    padding: 0 20px;
+}
+
