@@ -65,7 +65,7 @@ const items=[
     {
         id:7,
         name: 'Manga longa "GLOBAL SMILE" cinza',
-        price: 79.90,
+        price: 79.00,
         img: './src/greyglobalsmilelong.jpg',
         type: 'long-sleeved',
         description:"Manga longa cinza/mescla, estampa silkscreen modelo unisexx, com dupla costura e cobre gola para maior resistencia, tecido com lavagem de fabrica ",
@@ -86,12 +86,11 @@ function init(){
     var containerProducts = document.getElementById('products')
     items.map((val)=>{
         containerProducts.innerHTML += `
-        <div class="single-product border border-dark rounded">
-            <a href="#" key="`+val.id+`">
-                <img src="`+val.img+`">
-                <p>`+val.price+`</p>
-                <p>`+val.name+`</p>
-                <a href="#" key="`+val.id+`" class="addCart">add to cart</a>
+        <div class="single-product border border-dark rounded-lg">
+            <a class="deco-none" href="#" key="`+val.id+`">
+                <img src="`+val.img+`"><hr>
+                <h4>R$`+val.price+`,00</h4>
+                <p>`+val.name+`</p><button class="btn btn-danger btn-add" type="button"><a href="#" key="`+val.id+`" class="addCart deco-none"><i class="fas fa-shopping-cart" id="cart"></i></a></button>
             </a>
         </div>
         `;
