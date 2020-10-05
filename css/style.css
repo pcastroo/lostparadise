@@ -102,4 +102,17 @@ nav:nth-child(2){
 
 footer{
     margin-top: 1%;
+    
+}
+
+.social a {
+    font-size: 1.5em;
+    color: var(--color-red);
+    opacity: 0.6;
+    display: inline;
+}
+
+.copyright{
+    color: var(--color-white);
+    margin-bottom: -5px;
 }
