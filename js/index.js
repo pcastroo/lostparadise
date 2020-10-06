@@ -89,7 +89,7 @@ function init(){
         <div class="single-product border border-dark rounded-lg">
             <a class="deco-none" href="#" key="`+val.id+`">
                 <img src="`+val.img+`"><hr>
-                <h4>R$`+val.price+`,00</h4>
+                <h4><strong>R$`+val.price+`,00</strong></h4>
                 <p>`+val.name+`</p><button class="btn btn-danger btn-add" type="button"><a href="#" key="`+val.id+`" class="addCart deco-none"><i class="fas fa-shopping-cart" id="cart"></i></a></button>
             </a>
         </div>
